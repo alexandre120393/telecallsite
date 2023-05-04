@@ -1,0 +1,21 @@
+animação css 
+form{
+animation: iniciar 1.6s ease;
+    pointer-events: all;
+}
+
+
+
+
+@keyframes iniciar{
+    0%{
+        top: -50%;
+        opacity: 0%;
+        pointer-events: none;
+    }
+    100%{
+        top: 50%;
+        opacity: 100%;
+        pointer-events: all;
+    }
+}

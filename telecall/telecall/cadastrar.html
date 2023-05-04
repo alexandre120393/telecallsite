@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Cadastro </title>
+    <link rel="stylesheet" href="css/cadastrar.css">
+    
+</head>
+
+<body>
+    <div id="form">
+        <form>
+            <h2> Cadastre-se </h2><br>
+
+            <div id="esquerda">
+                <label for="nome"> Nome : </label>
+                <div class="nome">
+                    <input id="nome" type="text" placeholder="Nome Completo">
+                </div>
+
+                <label for="email"> Email :</label>
+                <div class="email">
+                    <input id="email" type="text" placeholder="email@exemplo.com">
+                </div>
+
+                <label for="dtnasc"> Data de Nascimento :</label>
+                <div class="dtnasc">
+                    <input id="dtnasc" type="number" placeholder="DD/MM/AAAA">
+                </div>
+
+                <label for="sexo">Sexo :</label>
+                <div class="sexo">
+                    <select name="sexo" id="sexo">
+                        <option value="Masculino">Masculino</option>
+                        <option value="Feminino">Feminino</option>
+                    </select>
+                </div>
+
+                <label for="nomemae"> Nome Materno :</label>
+                <div class="nomemae">
+                    <input id="nomemae" type="text">
+                </div>
+
+                <label for="cpf">CPF :</label>
+                <div class="cpf">
+                    <input id="cpf" type="number" placeholder="000.000.00.-00">
+                </div>
+            </div>
+            <div class="direita">
+
+                <label for="cel">Celular :</label>
+                <div class="cel">
+                    <input id="cel" type="number">
+                </div>
+
+                <label for="telfixo"> Telefone Fixo :</label>
+                <div class="telfixo">
+                    <input id="telfixo" type="number">
+                </div>
+
+                <label for="end">Endereço : </label>
+                <div class="end">
+                    <input type="text" id="end">
+                </div>
+
+                <label for="login">Login : </label>
+                <div class="login">
+                    <input type="text" id="login">
+                </div>
+
+                <label for="senha">Senha : </label>
+                <div class="senha">
+                    <input type="password" id="senha">
+                </div>
+
+                <label for="confsenha"> Confirme a Senha :</label>
+                <div class="confsenha">
+                    <input type="password" id="confsenha">
+                </div>
+
+            </div>
+
+            <label for="enviar"></label>
+            <div class="enviar">
+                <button id="botao" type="submit"> Enviar </button>
+            </div>
+
+        </form>
+    </div>
+</body>
+
+</html>
