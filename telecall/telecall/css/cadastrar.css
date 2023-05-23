@@ -12,7 +12,7 @@ body {
     background-image: linear-gradient(to bottom right, #ce2131, #0e4e7c);
 }
 
-#form{
+#formu{
     position: fixed;
     top: 50%;
     left: 50%;
@@ -30,7 +30,7 @@ h2{
     margin-left: 15px;
 }
 
-#esquerda{
+.esquerda{
     position: fixed;
     margin-left: 50px;
 }
@@ -47,7 +47,7 @@ h2{
     border-radius: 22px;
     border: 2px solid gray;
     padding: 5px;
-    margin: 0 0 12px -5px;n
+    margin: 0 0 12px -5px;
  }
 #dtnasc{
     min-width: 280px;
@@ -131,10 +131,10 @@ h2{
     margin: 0 0 12px -5px;
 }
 
-#botao{
+.botao{
     position: fixed;
     margin-top: -22%;
-    margin-left: 295px;
+    margin-left: 200px;
     width: 20%;
     font-family: 'poppins', sans-serif;
     background-image: linear-gradient(to bottom right, #ededee, #a4bcc9);
@@ -143,10 +143,28 @@ h2{
     font-size: 1.2em;
     cursor: pointer;
 }
-#botao:hover{
+.botao:hover{
     background-image: linear-gradient(to bottom right, #ededee, #7aadc9);
 }
 
+.limpar{
+    position: fixed;
+    margin-top: -22%;
+    margin-left: 380px;
+    width: 20%;
+    font-family: 'poppins', sans-serif;
+    background-image: linear-gradient(to bottom right, #ededee, #a4bcc9);
+    border: none;
+    border-radius: 22px;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+.limpar:hover{
+    background-image: linear-gradient(to bottom right, #ededee, #7aadc9);
+}
+
+
+/* animação (não ativo) */
 @keyframes iniciar{
     0%{
         top: -50%;
@@ -158,4 +176,14 @@ h2{
         opacity: 100%;
         pointer-events: all;
     }
+}
+
+/* resposivo (não funcionando) */
+@media screen and (min-width: 768px){
+    .container{
+        display: flex;
+        flex-direction: column; /* não faço a menor ideia */
+        flex-wrap: wrap;
+    }
+    
 }
